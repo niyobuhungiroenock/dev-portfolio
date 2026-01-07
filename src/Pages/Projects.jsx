@@ -19,7 +19,7 @@ export default function Projects() {
   }, []);
 
   if (loading) {
-    return <p className="text-center p-8">Loading projects...</p>;
+    return <p className="text-center p-8">Loading my projects...</p>;
   }
 
   return (
